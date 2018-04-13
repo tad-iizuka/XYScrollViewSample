@@ -12,6 +12,7 @@
 		320500972080B2020080A9C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 320500952080B2020080A9C2 /* Main.storyboard */; };
 		320500992080B2040080A9C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 320500982080B2040080A9C2 /* Assets.xcassets */; };
 		3205009C2080B2040080A9C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3205009A2080B2040080A9C2 /* LaunchScreen.storyboard */; };
+		320500A42080B48E0080A9C2 /* CalendarTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320500A32080B48E0080A9C2 /* CalendarTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		320500982080B2040080A9C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3205009B2080B2040080A9C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3205009D2080B2040080A9C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		320500A32080B48E0080A9C2 /* CalendarTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,7 +41,6 @@
 			isa = PBXGroup;
 			children = (
 				320500902080B2020080A9C2 /* XYScrollViewSample */,
-				3205008F2080B2020080A9C2 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -49,6 +50,7 @@
 				3205008E2080B2020080A9C2 /* XYScrollViewSample.app */,
 			);
 			name = Products;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		320500902080B2020080A9C2 /* XYScrollViewSample */ = {
@@ -56,10 +58,12 @@
 			children = (
 				320500912080B2020080A9C2 /* AppDelegate.swift */,
 				320500932080B2020080A9C2 /* ViewController.swift */,
+				320500A32080B48E0080A9C2 /* CalendarTableViewCell.swift */,
 				320500952080B2020080A9C2 /* Main.storyboard */,
 				320500982080B2040080A9C2 /* Assets.xcassets */,
 				3205009A2080B2040080A9C2 /* LaunchScreen.storyboard */,
 				3205009D2080B2040080A9C2 /* Info.plist */,
+				3205008F2080B2020080A9C2 /* Products */,
 			);
 			path = XYScrollViewSample;
 			sourceTree = "<group>";
@@ -137,6 +141,7 @@
 			files = (
 				320500942080B2020080A9C2 /* ViewController.swift in Sources */,
 				320500922080B2020080A9C2 /* AppDelegate.swift in Sources */,
+				320500A42080B48E0080A9C2 /* CalendarTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
